@@ -1,11 +1,20 @@
+// método do array - Filter
+// filtra alguns elementos de um array
+let array = [13, 18, 20];
+let numeros = array.filter(function(numero) {
+    return numero >= 18;
+});
+
+console.log(numeros);
+
 // método do array - Map
 // modifica cada um dos itens do array (array * 2 é muito dificil de fazer, por isso existe o map)
-var array = [1, 2, 3];
+/*var array = [1, 2, 3];
 let numeros = array.map(function(numero) {
     return numero * 2;
 });
 
-console.log(numeros);
+console.log(numeros);*/
 
 
 // método do array - For Each
