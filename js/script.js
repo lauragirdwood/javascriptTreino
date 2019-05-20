@@ -1,7 +1,15 @@
+// método do array - For Each
+var numeros = [1, 2, 3, 4, 5];
+
+numeros.forEach(function(value, index){
+    console.log("No index: " + index + " tem o valor: " + value);
+});
+
+
 // Callback é uma função que recebe como parâmetro outra função. É considerado um padrão de design
 // Quando eu chamo um callback estou chamando outra função
 
-function a(callback) {
+/*function a(callback) {
     console.log("a vem primeiro");
     setTimeout(function() { // setTimeout espera um tempo e depois faz alguma coisa        
         callback();
@@ -9,7 +17,7 @@ function a(callback) {
 }
 
 a(b);
-
+*/
 
 // Função aninhada - função dentro de outra função :)
 /*function circunferencia(raio) {
