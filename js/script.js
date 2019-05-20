@@ -1,11 +1,13 @@
-// Definindo objetos
+// Definindo objetos e passando função como parâmetro
 
 let carro = {
     marca: "Chevrolet",
     modelo: "Corsa",
     quilometragem: 65000,
     cor: "Branco",
-    donos: ["Luciana", "João", "Márcia"]
+    donos: ["Luciana", "João", "Márcia"],
+    ligar: function() { console.log("vrum vrum" )},
+    motorista: function(nome) {console.log(nome + " está dirigindo")}
 }
 
 carro.velocidadeMax = 200;
@@ -13,6 +15,8 @@ carro.velocidadeMax = 200;
 console.log(carro.marca);
 console.log(carro.donos);
 console.log(carro.velocidadeMax);
+console.log(carro.ligar());
+console.log(carro.motorista("Rachador"));
 
 
 
