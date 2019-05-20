@@ -1,11 +1,24 @@
+// método Reduce
+// reduz um array a um valor único
+// pode ser soma, subtração, multiplicação, divisão...
+
+let array = [1, 5, 7];
+
+let nums = array.reduce(function(total, numero) {
+    return total + numero;
+});
+
+console.log(nums);
+
+
 // método do array - Filter
 // filtra alguns elementos de um array
-let array = [13, 18, 20];
+/*let array = [13, 18, 20];
 let numeros = array.filter(function(numero) {
     return numero >= 18;
 });
 
-console.log(numeros);
+console.log(numeros);*/
 
 // método do array - Map
 // modifica cada um dos itens do array (array * 2 é muito dificil de fazer, por isso existe o map)
