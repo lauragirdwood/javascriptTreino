@@ -1,10 +1,20 @@
+// método do array - Map
+// modifica cada um dos itens do array (array * 2 é muito dificil de fazer, por isso existe o map)
+var array = [1, 2, 3];
+let numeros = array.map(function(numero) {
+    return numero * 2;
+});
+
+console.log(numeros);
+
+
 // método do array - For Each
-var numeros = [1, 2, 3, 4, 5];
+// percorre todo o array, item por item
+/*var numeros = [1, 2, 3, 4, 5];
 
 numeros.forEach(function(value, index){
     console.log("No index: " + index + " tem o valor: " + value);
-});
-
+});*/
 
 // Callback é uma função que recebe como parâmetro outra função. É considerado um padrão de design
 // Quando eu chamo um callback estou chamando outra função
