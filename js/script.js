@@ -1,16 +1,10 @@
-// Laço de Repetição: Do While
-var senha = true;
-var i = 0;
 
-do {
-    console.log(i);
-    if (i == 2) {
-        senha = false;
-    } 
-    i++;
-} while (senha);
+// Atribuindo uma função a uma variável
+let nomeFuncao = function() {
+    console.log("Ola");
+};
 
-senha;
+
 // Laço de Repetição: While
 // var senha = true;
 // var i = 0;
