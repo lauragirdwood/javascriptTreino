@@ -1,8 +1,18 @@
+// Função aninhada - função dentro de outra função :)
+function circunferencia(raio) {
+    function diametro() {
+        return 2 * raio;
+    }
+    return Math.PI * diametro();
+}
+
+console.log(circunferencia(2));
+
 
 // Atribuindo uma função a uma variável
-let nomeFuncao = function() {
-    console.log("Ola");
-};
+// let nomeFuncao = function() {
+//     console.log("Ola");
+// };
 
 
 // Laço de Repetição: While
