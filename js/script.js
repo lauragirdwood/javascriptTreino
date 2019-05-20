@@ -6,11 +6,11 @@ do {
     console.log(i);
     if (i == 2) {
         senha = false;
-    }
+    } 
     i++;
 } while (senha);
 
-
+senha;
 // Laço de Repetição: While
 // var senha = true;
 // var i = 0;
