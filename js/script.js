@@ -1,14 +1,31 @@
+// Definindo objetos
+
+let carro = {
+    marca: "Chevrolet",
+    modelo: "Corsa",
+    quilometragem: 65000,
+    cor: "Branco",
+    donos: ["Luciana", "João", "Márcia"]
+}
+
+carro.velocidadeMax = 200;
+
+console.log(carro.marca);
+console.log(carro.donos);
+console.log(carro.velocidadeMax);
+
+
+
 // método Reduce
 // reduz um array a um valor único
 // pode ser soma, subtração, multiplicação, divisão...
 
-let array = [1, 5, 7];
+/*let array = [1, 5, 7];
 
 let nums = array.reduce(function(total, numero) {
     return total + numero;
 });
-
-console.log(nums);
+console.log(nums);*/
 
 
 // método do array - Filter
@@ -17,7 +34,6 @@ console.log(nums);
 let numeros = array.filter(function(numero) {
     return numero >= 18;
 });
-
 console.log(numeros);*/
 
 // método do array - Map
