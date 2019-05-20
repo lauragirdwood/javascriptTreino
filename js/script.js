@@ -16,7 +16,20 @@ if (diaDaSemana == "Domingo") {
 
 console.log("Programa finalizado!");*/
 
-var diaDaSemana = "Quarta-Feira";
-diaDaSemana = "Sexta-Feira";
+/* var diaDaSemana = "Quarta-Feira";
+ diaDaSemana = "Sexta-Feira";
 
-(diaDaSemana == "Sexta-Feira") ? console.log("Dia de futebol") : console.log("Um dia qualquer");
+ (diaDaSemana == "Sexta-Feira") ? console.log("Dia de futebol") : console.log("Um dia qualquer");*/
+
+ var sintomas = "tossir";
+
+ switch (sintomas) {
+    case "tossir":
+        console.log("Tuberculose");
+        break;
+    case "febre":
+        console.log("Dengue");
+        break;
+    default:
+        console.log("Virose");
+ }
