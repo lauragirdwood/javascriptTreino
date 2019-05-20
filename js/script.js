@@ -1,4 +1,4 @@
-var diaDaSemana = "Domingo";
+/*var diaDaSemana = "Domingo";
 
 diaDaSemana = "Quarta-Feira";
 
@@ -14,4 +14,9 @@ if (diaDaSemana == "Domingo") {
     console.log("Hoje não é dia de churrasco! =(");
 }
 
-console.log("Programa finalizado!");
+console.log("Programa finalizado!");*/
+
+var diaDaSemana = "Quarta-Feira";
+diaDaSemana = "Sexta-Feira";
+
+(diaDaSemana == "Sexta-Feira") ? console.log("Dia de futebol") : console.log("Um dia qualquer");
