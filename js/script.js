@@ -1,12 +1,25 @@
+// Callback é uma função que recebe como parâmetro outra função. É considerado um padrão de design
+// Quando eu chamo um callback estou chamando outra função
+
+function a(callback) {
+    console.log("a vem primeiro");
+    setTimeout(function() { // setTimeout espera um tempo e depois faz alguma coisa        
+        callback();
+    }, 3000); //3 segundos
+}
+
+a(b);
+
+
 // Função aninhada - função dentro de outra função :)
-function circunferencia(raio) {
+/*function circunferencia(raio) {
     function diametro() {
         return 2 * raio;
     }
     return Math.PI * diametro();
 }
 
-console.log(circunferencia(2));
+console.log(circunferencia(2));*/
 
 
 // Atribuindo uma função a uma variável
